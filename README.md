@@ -354,7 +354,13 @@ For detailed information about the tactile sensor implementation, refer to the [
 ros2 run ros2_arduino_servo servo_node --ros-args -p serial_port:='/dev/ttyServo'
 ```
 
-5. Start visualization (optional):
+5. **Start the Gripper Control Node**:
+   ```bash
+   # This will start the action client to control the gripper
+   ros2 run gripper_control gripper_action_client
+   ```
+
+6. Start visualization (optional):
 ```bash
 # For visualization with Foxglove
 ros2 launch foxglove_bridge foxglove_bridge_launch.xml
