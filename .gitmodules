@@ -28,3 +28,9 @@
 [submodule "src/image_extractor_pkg"]
 	path = src/image_extractor_pkg
 	url = https://github.com/brucewayne7777/realsense_image_extractor.git
+[submodule "src/bota_driver_ros2"]
+	path = src/bota_driver_ros2
+	url = https://gitlab.com/botasys/drivers/bota_driver_ros2
+[submodule "src/bota_driver_ros2_example"]
+	path = src/bota_driver_ros2_example
+	url = https://github.com/snt-spacer/bota_driver_ros2_example.git
